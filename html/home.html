@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20001030224李立轩</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../ifont/iconfont.css">
+</head>
+<body>
+    <!--顶部导航栏-->
+    <header>
+        <!--顶部左侧导航-->
+        <ul class="left-ul">
+            <li><a href="../html/home.html">豆瓣</a></li>
+            <li><a href="../html/douban_read.html">读书</a></li>
+            <li><a href="../html/douban_movie.html">电影</a></li>
+            <li><a href="#">音乐</a></li>
+            <li><a href="#">同城</a></li>
+            <li><a href="#">小组</a></li>
+            <li><a href="#">阅读</a></li>
+            <li><a href="#">FM</a></li>
+            <li><a href="#">时间</a></li>
+            <li><a href="../html/douban_market.html">豆品</a></li>        </ul>
+        <!--右侧导航-->
+        <ul class="right-ul">
+            <li><a href="#">下载豆瓣客户端</a></li>
+            <li><a href="#">提醒</a></li>
+            <li><a href="#">豆邮</a></li>
+        </ul>
+    </header>
+    <!--顶部下-->
+    <div class="banner">
+        <input type="text" onclick="click()" placeholder="搜索你感兴趣内容和人" /><a href="#"><span class="iconfont icon-sousuo"></span></a>
+            <ul class="banner01">
+                <li><a href="../html/index.html">首页</a></li>
+                <li><a href="../html/mydouban.html">我的豆瓣</a></li>
+                <li><a href="#">浏览发现</a></li>
+                <li><a href="#">移动应用</a></li>
+                <!--<li><a href="#">游戏</a></li>-->
+                <li><a href="#">线上活动</a></li>
+            </ul> 
+    </div>
+    <!--内容区-->
+    <div class="container">
+        <!--左半边-->
+        <div class="left">
+            <ul class="leftul">
+                <li><a href="#"><b></b>说句话</a></li>
+                <li><a href="#"><b></b>发照片</a></li>
+                <li><a href="#"><b></b>推荐网页</a></li>
+                <li><a href="#"><b></b>写日记</a></li>
+                <li><a href="#"><b></b>发布东西</a></li>
+            </ul>
+            <p class="set"><a href="#">首页设置</a></p>
+            <div class="left_dir"> 
+                <input type="text" placeholder="分享生活的点点滴" title="分享生活的点点滴"/> 
+                <button class="camera"> </button> 
+                <div class="item">
+                    <textarea data-minheight="70" tabindex="1" id="isay-cont" rows="1" style="height: 70px;" spellcheck="false">前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨论这个。</textarea>
+                    <div class="send_dir">发表</div>
+                </div>
+                <!-- <button class="camera"> <img src="../images/icon2.png" alt="" /> </button>  -->
+            </div>
+            <!--评论区-->
+            <div class="pinglun"> <img src="../images/cat.png" alt="头像" />
+                <div class="neirong">
+                    <h1>Violet日记</h1>
+                    <div class="gray">
+                        <div class="article">
+                            <p><a href="#">怪力八面体-胡夫金子塔</a></p>
+                            <p> 前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨论这个。
+                            </p>
+                            <div class="like"><i></i>喜欢</div>
+                        </div>
+                        <div class="picture"> <img src="../images/p2501771830.webp" alt="文章" /> </div>
+                    </div>
+                    <p class="time">来自热门精选</p>
+                </div>
+            </div>
+            <!--评论区-->
+            <div class="pinglun"> <img src="../images/cat.png" alt="头像" />
+                <div class="neirong">
+                    <h4>李青菜的日记：</h4>
+                    <div class="gray">
+                        <div class="article">
+                            <p><a href="#">金字塔</a></p>
+                            <p>前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨 论这个。
+                            </p>
+                            <div class="like"><i></i>喜欢</div>
+                        </div>
+                        <div class="picture"> <img src="../images/p2501771830.webp" alt="文章的配图" /> </div>
+                    </div>
+                    <p class="time">1小时前，来自热门精选</p>
+                </div>
+            </div>
+            <div class="pinglun"> <img src="../images/cat.png" alt="头像" />
+                <div class="neirong">
+                    <h4>wand</h4>
+                    <div class="gray">
+                        <div class="article">
+                            <p><a href="#">怪力八面体-胡夫金字塔</a></p>
+                            <p>前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨 论这个。
+                            </p>
+                            <div class="like"><i></i>喜欢</div>
+                        </div>
+                        <div class="picture"> <img src="../images/p2501771830.webp" alt="文章配图" /> </div>
+                    </div>
+                    <p class="time">1小时前，来自热门精选</p>
+                </div>
+            </div>
+            <div class="pinglun"> <img src="../images/cat.png" alt="头像" />
+                <div class="neirong">
+                    <h4>赵志名的日志</h4>
+                    <div class="gray">
+                        <div class="article">
+                            <p><a href="#">怪力八面体-胡夫金字塔</a></p>
+                            <p>前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨 论这个。
+                            </p>
+                            <div class="like"><i></i>喜欢</div>
+                        </div>
+                        <div class="picture"> <img src="../images/p2501771830.webp" alt="文章配图" /> </div>
+                    </div>
+                    <p class="time">1小时前，来自热门精选</p>
+                </div>
+            </div>
+            <div class="pinglun"> <img src="../images/cat.png" alt="头像" />
+                <div class="neirong">
+                    <h4>wand</h4>
+                    <div class="gray">
+                        <div class="article">
+                            <p><a href="#">怪力八面体-胡夫金字塔</a></p>
+                            <p>前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨 论这个。
+                            </p>
+                            <div class="like"><i></i>喜欢</div>
+                        </div>
+                        <div class="pinglun"> <img src="../images/p2501771830.webp" alt="文章配图" /> </div>
+                    </div>
+                    <p class="time">1小时前，来自热门精选</p>
+                </div>
+            </div>
+            <div class="pinglun"> <img src="../images/cat.png" alt="头像" />
+                <div class="neirong">
+                    <h4>Violet的日记：</h4>
+                    <div class="gray">
+                        <div class="article">
+                            <p><a href="#">怪力八面体-胡夫金字塔</a></p>
+                            <p>前几天看见有人在广播里发了这个，搜了一下似乎 也没人针对这个写文章。今天咱们就来讨 论这个。几天看见有人在广播里发了这个，这几天 看见有人在这儿说这个。今天咱们就来讨 论这个。
+                            </p>
+                            <div class="like"><i></i>喜欢</div>
+                        </div>
+                        <div class="picture"> <img src="../images/p2501771830.webp" alt="文章配图" /> </div>
+                    </div>
+                    <p class="time">1小时前，来自热门精选</p>
+                </div>
+            </div>
+        </div>
+        <!--右半边-->
+        <div class="right">
+            <div class="happen">
+                <h2>豆瓣正在发生······</h2>
+                <p><a href="#">哈利·波特第八部全球同步上架</a></p>
+                <p><a href="#">China Joy优秀游戏鉴赏</a></p>
+            </div>
+            <div class="adver"> <a href="#"><img src="../images/adver.jpg" alt="广告图片" />广告&nbsp|&nbsp&nbsp&nbsp&nbsp爱可以很复杂</a></div>
+            <!--区块6（一拍一）-->
+            <div class="doubantime">
+                <h2>豆瓣时间······<a href="#">（查看全部）</a></h2>
+                <div class="doubantimepic1"> <a href="#"> <img src="../images/f2e4c7d4-5f38-11ed-8da3-962eccf191f5.jpg" alt="图片" /> </a>
+                    <p><a href="#">轻松摆脱困境的秘密——颠覆你认知的社会心理学</a></p>
+                    <p>音频专栏</p>
+                </div>
+                <div class="doubantimepic2"> <a href="#"> <img src="../images/e833bfb8-4e8d-11ed-8158-5a3de8dbe57e.jpg" alt="图片" /> </a>
+                    <p><a href="#">花艺静物摄影课——拍照，插花，写大地的诗</a></p>
+                    <p>视频专栏</p>
+                </div>
+            </div>
+            <div class="hot">
+                <div>
+                    <h2>热门话题······<a href="#">（去话题广场）</a></h2>
+                    <p><a href="#">绝不失手的居家菜谱</a></p>
+                    <p>299.5万次浏览</p>
+                </div>
+                <div>
+                    <p><a href="#">瓣秋季摄影大赛丨秋山行旅图</a></p>
+                    <p>664.3万次浏览</p>
+                </div>
+                <div>
+                    <p><a href="#">纪念萨拉马戈诞辰100周年</a></p>
+                    <p>6991次浏览</p>
+                </div>
+                <div>
+                    <p><a href="#">冬天要做的一百件小事</a></p>
+                    <p>新话题 · 6.8万次浏览</p>
+                </div>
+                <div>
+                    <p><a href="#">忆似水年华》线上共读会</a></p>
+                    <p>7691次浏览</p>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <!--下面的底部-->
+    <footer>
+        <ul>
+            <li><a href="#">关于豆瓣·</a></li>
+            <li><a href="#">在豆瓣的工作</a></li>
+            <li><a href="#">联系我们</a></li>
+            <li><a href="#">免责声明</a></li>
+            <li><a href="#">帮助中心</a></li>
+            <li><a href="#">移动应用</a></li>
+            <li><a href="#">豆瓣广告</a></li>
+        </ul>
+        <p>&copy2005-2022 douban.com,all rights reserved 北京豆网科技有限公司</p>
+    </footer>
+<script src="../js/home.js"></script>
+</body>
+</html>

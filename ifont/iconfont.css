@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3706904 */
+  src: url('iconfont.woff2?t=1669448460981') format('woff2'),
+       url('iconfont.woff?t=1669448460981') format('woff'),
+       url('iconfont.ttf?t=1669448460981') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-airudiantubiaohuizhi-zhuanqu_guangyingfengcai:before {
+  content: "\e692";
+}
+
+.icon-weixin:before {
+  content: "\e630";
+}
+
+.icon-weibo:before {
+  content: "\e669";
+}
+
+.icon-douban:before {
+  content: "\f93b";
+}
+
+.icon-icon-test:before {
+  content: "\e660";
+}
+
+.icon-icon-test1:before {
+  content: "\e665";
+}
+
+.icon-icon-test2:before {
+  content: "\e666";
+}
+
+.icon-icon-test3:before {
+  content: "\e667";
+}
+
+.icon-icon-test4:before {
+  content: "\e668";
+}
+
+.icon-icon-test5:before {
+  content: "\e66f";
+}
+
+.icon-touxiangnvhai:before {
+  content: "\e6df";
+}
+
+.icon-sousuo:before {
+  content: "\e86e";
+}
+
+.icon-qiatongtouxiang:before {
+  content: "\e62f";
+}
+
+.icon-erweima:before {
+  content: "\e653";
+}
+

@@ -1,0 +1,106 @@
+{
+    "left_pictures_json":[
+        {
+            "pic":"../images/p2561571312.webp",
+            "link_content":"一些兔子 ",
+            "span":"72张照片"
+        },
+        {
+            "pic":"../images/p2633074055.webp",
+            "link_content":"维特根斯坦小剧场 ",
+            "span":"36张照片"
+        },
+        {
+            "pic":"../images/p2635061707.webp",
+            "link_content":"寻找麒麟",
+            "span":"52张照片"
+        },
+        {
+            "pic":"../images/p2868172035.webp",
+            "link_content":"乐队的夏天",
+            "span":"8张照片"
+        }
+    ],
+    "section_time_json":[
+        {
+            "pic":"../images/f90e218a-b8aa-11e7-9cc5-0242ac110021.jpg",
+            "link_content":"52倍人生——戴锦华大师电影课",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/5d4dd498-5676-11e7-bb3d-0242ac11002d.jpg",
+            "link_content":"吃个宋代冰淇淋——随孟晖女史重觅古代生活",
+            "span":"图文专栏"
+        },
+        {
+            "pic":"../images/044bb4c8-7688-11e7-b63f-0242ac110028.jpg",
+            "link_content":"笔落惊风雨——你不可不知的中国三大名画",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/54d34448-1dea-11e7-afa9-0242ac11002c.jpg",
+            "link_content":"拍张好照片——10分钟搞定旅行摄影",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/6db31128-39dd-11e7-895e-0242ac110016.png",
+            "link_content":"以乐语教国子——叶嘉莹古诗词吟诵课",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/7bea8578-3f69-11e7-8261-0242ac11001b.png",
+            "link_content":"不寻常世界——5部世界经典恐怖电影",
+            "span":"图文专栏"
+        },
+        {
+            "pic":"../images/95667170-874d-11e7-a14f-0242ac110020.png",
+            "link_content":"白先勇细说红楼梦——从小说角度重解“红楼”",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/abd3c3ec-922c-11e7-8a20-0242ac11000c.png",
+            "link_content":"古今——杨照史记百讲",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/acd0bdc0-9922-11e7-8e6d-0242ac11001a.png",
+            "link_content":"回到原典——细节里的中国美术史",
+            "span":"音频专栏"
+        },
+        {
+            "pic":"../images/c3ab871e-2401-11e7-9fe8-0242ac110046.png",
+            "link_content":"醒来——北岛和朋友们的诗歌课",
+            "span":"音频专栏"
+        }
+    ],
+    "section_movie_top_json":[
+        {
+            "pic":"../images/tmp1805.png",
+            "link_content":"《如是》第十二期丨如是：这是我的路，你的呢？"
+        },
+        {
+            "pic":"../images/tmp2B8E.png",
+            "link_content":"《如是》第十一期丨王珮瑜：撕裂的生活很痛，但我喜欢"
+        },
+        {
+            "pic":"../images/tmp3582.png",
+            "link_content":"《如是》第十期｜西川：凡是能够使我获得再生之感的东西，都是诗意"
+        }
+    ],
+    "section_movie_down_json":[
+        {
+            "pic":"../images/450.webp",
+            "link_content":" 爱的二八定律·热播  甜！杨幂许凯氛围感抱抱 "
+        },
+        {
+            "pic":"../images/451.webp",
+            "link_content":"在你的冬夜里闪耀   口碑必看！乔欣治愈爱情 "
+        },
+        {
+            "pic":"../images/452.webp",
+            "link_content":" 大博弈  秦昊万茜玩转商界丛林法则 "
+        }
+    ]
+}
+
+

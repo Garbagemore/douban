@@ -1,0 +1,340 @@
+/* home样式代码 */
+* {
+    padding: 0;
+    margin: 0;
+    /*font-size: 0;*/
+}
+body{
+    min-width: 800px;
+}
+ul,ol,li{
+    list-style: none;
+}
+a:link,a:visited, a:focus {
+    color: #3377aa;
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    background-color: #555753;
+    min-width: 1040px;
+}
+h2{
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ddd;
+    line-height: 150%;
+    color: #111;
+}
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  
+/*顶部导航栏*/
+header li {
+    line-height: 30px;
+}
+.left-ul li {
+    float: left;
+}
+.hang {
+    width: 100%;
+}
+.hang li {
+    width: 15%;
+    float: left;
+}
+.hang li a{
+    width: 64px;
+}
+.right-ul {
+    float: right;
+    /* margin-right: 164px; */
+    width: 220px;
+}
+.right-ul li {
+    float: left;
+}
+header a {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0 12px;
+}
+header a:link {
+    color: #ffffff;
+}
+header a:visited {
+    color: #ffffff;
+}
+header a:hover {
+    color: #565854;
+    background: 48px 30px #ffffff;
+}
+
+/*底部*/
+footer {
+    position: relative;
+    width: 960px;
+    height: 45px;
+    margin: 0 auto;
+    border-top: 1px dashed #888888;
+    clear: both;
+}
+
+footer p {
+
+    font-size: 12px;
+    color: #888888;
+    line-height: 45px;
+}
+
+footer ul {
+    float: right;
+}
+
+footer ul li {
+    float: left;
+    padding: 0 5px;
+}
+
+footer a {
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 12px;
+    color: #33a0da;
+}
+
+
+
+/* 豆瓣读书样式 */
+#db-nav-book a:hover{
+    background-color: #b7b7ae;
+    color: white;
+}
+#content a:hover{
+    background-color: #37a;
+    color: white;
+}
+.footer a:hover{
+    background-color: #37a;
+    color: white;
+}
+
+/* 上导航 */
+#db-nav-book {
+    background: #f6f6f1;
+    position: relative;
+}
+.nav {
+    width: 100%;
+    min-width: 1040px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+#db-nav-book .nav-wrap {
+    border-color: #e9e9e2;
+    border-bottom: 1px solid #e5ebe4;
+}
+.nav .nav-primary {
+    width: 1040px;
+    margin: 0 auto;
+    overflow: visible !important;
+    position: relative;
+    padding: 10px 0 5px;
+}
+#db-nav-book .nav-logo {
+    background: url(../images/lg_book_a11_1.png) no-repeat 0 12px;
+    background-image: -webkit-image-set(url(../images/lg_book_a11_1.png) 1x, url(../images/lg_book@2x.png) 2x);
+}
+.nav .nav-logo {
+    float: left;
+    height: 56px;
+    width: 145px;
+    margin: 0 13px 0 0;
+}
+.nav-secondary {
+    clear: both;
+    width: 1040px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom: 1;
+}
+.nav-secondary .nav-items {
+    font-size: 14px;
+}
+.nav-secondary ul {
+    margin: 9px 0;
+}
+#db-nav-book .nav-secondary li {
+    margin-right: 25px;
+    display: inline;
+}
+.nav-secondary .book-cart {
+    position: relative;
+    padding-left: 18px;
+    padding-top: 2px;
+    background-image: url("../images/icon_myorders.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 15px;
+}
+#db-nav-book a:link, #db-nav-book a:visited {
+    color: #614e3c;
+    text-decoration: none;
+}
+#db-nav-book a.bookannual {
+    position: absolute;
+    width: 186px;
+    height: 96px;
+    top: 10px;
+    left: 50%;
+    margin-left: 345px;
+    background: url("../images/annual_2021.png") center/contain no-repeat;
+}
+#wrapper {
+    width: 954px;
+    /* height: 800px; */
+    /* position: relative; */
+    margin: 0 auto;
+}
+/* 广告样式 */
+#advertisement{
+    width: 100%;
+}
+#advertisement a img{
+    margin: 0 auto;
+}
+#ad_img{
+    display: block;
+    /* margin: 0px 0px 20px; */
+    width: auto;
+    height: 100px;
+    overflow: hidden;
+}
+/* 内容样式 */
+#content {
+    min-height: 420px;
+    float: left;
+    /* text-align: center; */
+    /* position: relative; */
+}
+.clearfix{
+    height: 420px;
+}
+.clearfix .article {
+    margin: auto;
+    width: 675px;
+    float: left;
+}
+.books-express h2 {
+    font-size: 18px;
+}
+.books-express {
+    margin-bottom: 65px;
+}
+.books-express .hd{
+    width: 100%;
+    
+}
+.books-express .hd h2 {
+    display: flex;
+    align-items: center;
+}
+
+.books-express .hd h2 .tags {
+    flex: 1;
+    font-size: 13px;
+    color: #9B9B9B;
+    letter-spacing: 0;
+    font-weight: normal;
+    margin-left: 2px;
+}
+.books-express .hd h2 .tags .item {
+    margin-left: 6px;
+    cursor: pointer;
+}
+.books-express .hd h2 .tags .item.active {
+    color: #111111;
+    cursor: default;
+}
+h2 .link-more {
+    font: 13px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+    padding-left: 10px;
+}
+/* 新书速递内容 */
+.book_center_top1{
+    width: 60%;
+    display: flex;
+}
+.book_center_top2{
+    display: none;
+}
+.book_center_top1 ul {
+    min-width: 700px;
+}
+.book_center_top1 img{
+    display: block;
+    max-width: 115px;
+    max-height: 172px;
+    align-self: flex-end;
+    border-width: 0;
+}
+.book_center_top1 ul li{
+    margin: 10px 10px 0 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.book_center_top1 ul li div{
+    margin-left: 3px;
+}
+.book_center_top1 .book_title{
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+/* 右边区域 */
+#content .aside{
+    position: relative;
+    left: 690px;
+    bottom: 869px;
+    width: 280px;
+}
+.aside #hottag{
+    font: 15px Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    padding-bottom: 3px;
+    margin-bottom: 16px;
+    line-height: 150%;
+    color: #111;
+}
+.aside span{
+    color: #999;
+    font-size: 12px;
+}
+.aside ul{
+    list-style-type: none;
+    border-bottom: 1px solid #f2efef;
+    padding-left: 0;
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+.aside ul li{
+    display: inline-block;
+    margin-right: 8px;
+}
+.aside ul li a{
+    color:#614e3c;
+    font-size: 12px;
+}
